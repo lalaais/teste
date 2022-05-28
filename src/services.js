@@ -40,6 +40,13 @@ export function diaSemana (dia) {
     return msg;
 }
 
+export function fatorial (num) {
+    let soma = 1;
+    for (let i = 1; i <= num; i ++) {
+        soma *= i;
+    }
+    return soma;
+}
 export function sequenciaPar (numero) {
     let x = [];
     for(let i = 0; i <= numero; i++) {
